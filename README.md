@@ -4,7 +4,7 @@
 ## Introduction
 Merge two or more image files into one compact PDF [here](https://img2pdf-crce.herokuapp.com/).
 
-## Library :computer: : 
+## Libraries :computer: : 
   * [Imagemagick](https://imagemagick.org/index.php)
   
 ## License
