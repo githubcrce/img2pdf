@@ -76,7 +76,7 @@ app.post('/merge',upload.array('files',100),(req,res) => {
 
         console.log(list)
 
-        exec(`magick convert ${list} -units pixelsperinch -density 72 -page letter ${outputFilePath}`,(err,stdout,stderr) => {
+        exec(`magick convert ${list} ${outputFilePath}`,(err,stdout,stderr) => {
             if(err) throw err
 
             res.download(outputFilePath,(err) => {
