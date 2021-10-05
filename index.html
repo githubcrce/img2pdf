@@ -42,7 +42,9 @@
     <br>
     <form action="/merge" method="post" enctype="multipart/form-data">
       <div class="form-group">
-        <input type="file" name="files" multiple required class="form-control btn btn-light">
+        <!-- Only Accept JPG , JPEG & PNG -->
+        <input type="file" name="files" multiple required class="form-control btn btn-light"
+          accept="image/png, image/jpg, image/jpeg">
       </div>
       <div class="form-group d-grid gap-2">
         <button class="btn btn-outline-secondary" type="submit">Convert to PDF</button>
