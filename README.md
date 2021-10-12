@@ -9,3 +9,4 @@ Merge two or more image files into one compact PDF [here](https://img2pdf-crce.h
   
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
+Yash trying to mess up your work, you are not safe if i can merge without permission
